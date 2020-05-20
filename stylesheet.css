@@ -1,0 +1,67 @@
+﻿/*NOTES:
+    Yet to be implemented: 
+    -nicer font
+    -support for displays of different sizes (@mobile etc.)
+    -general reformatting of content
+*/
+
+
+/*Waving Hand*/
+span.wave {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+@keyframes wave-animation {
+    0% {transform: rotate( 0.0deg)}
+    10% {transform: rotate(-10.0deg)}
+    20% {transform: rotate( 12.0deg)}
+    30% {transform: rotate(-10.0deg)}
+    40% {transform: rotate( 9.0deg)}
+    50% {transform: rotate( 0.0deg)}
+    100% {transform: rotate( 0.0deg)}
+}
+
+/*INTRODUCTION*/
+.intro {
+    padding: 120px 100px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 1440px;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: white;
+    color: dimgray;
+    font-family: Verdana;
+    line-height: 1.5;
+}
+.intro_hello, .intro_tagline {
+    font-size: 2.5rem;
+    font-weight: 300;
+    max-width: 700px;
+}
+.name {
+    font-weight: 700;
+}
+.intro_contact {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+/* Base Stuff*/
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: white;
+    color: darkgray;
+    font-family: Verdana;
+    line-height: 1.5;
+    width: 100%;
+}

@@ -1,7 +1,7 @@
 # brianlian38.github.io
 Personal Portfolio Website
 
-Basic Outline of the website, plenty of information and javascript to be added.
+Basic Barebones Outline of the website, plenty of information and javascript to be added.
 
 
 /*To be implemented:   

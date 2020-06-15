@@ -1,5 +1,4 @@
 ﻿<!DOCTYPE html>
-<script src="primary.js"></script>
 
 <html>
 
@@ -7,6 +6,19 @@
     <title>Brian Lian</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="jquery-3.5.1.js"></script>
+    <script src="primary.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
     <!-- Introduction/Opening -->
@@ -18,7 +30,7 @@
 
         <h2 class="intro_tagline">
             I'm
-            <span class="name">Brian Lian</span>, a design-minded full-stack software engineer focused on building useful &amp; functional applications
+            <span class="name">Brian Lian</span>, a passionate full-stack software engineer focused on building useful &amp; functional applications
         </h2>
 
         <h3 class="intro_contact">
@@ -44,7 +56,7 @@
     <br /><br />
 
     <!-- Bio -->
-    <div class="biography">
+    <div class="biography" data-aos="fade-up">
 
         <img src="img/Headshot01.jpg" id="profilepic" alt="HeadshotImage" />
         <div class="section_content">
@@ -55,11 +67,13 @@
             </p>
 
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin laoreet purus at justo dignissim sollicitudin. 
-                Etiam elementum arcu eu ipsum accumsan, eu accumsan sapien vestibulum. Curabitur porta lacus dolor, 
-                ultricies egestas metus sollicitudin ut. Proin porttitor mollis nisl nec venenatis. Proin eleifend leo lacus, 
+                As a computer science student with an interest in business, I enjoy finding ways to utilize software to streamline and
+                optimize workplaces through creating applications and sites that can be used effectively to increase productivity, benefit
+                one's workflow, or boost user engagement. I consistently aim to deliver products that are simplistic and engaging to the
+                user while remaining efficient under the hood.
             </p>
-
+            <!-- I have a passion for helping others which leads to my love of organizing events or creating applications
+        that benefit society.-->
             <p>
                 <strong>When I'm not in front of a computer screen</strong>, I'm probably reading, playing games,
                 or trying to cook (and not burn down my kitchen).
@@ -70,16 +84,71 @@
 
 
     <!-- Skills -->
-    <div class="skills">
+    <div class="skills" data-aos="fade-up">
 
         <div class="section_content">
             <div class="section_title">Skills</div>
             <br />
             <p>
-                Currently on a never-ending journey to becoming a better full stack developer.
+                On a journey to becoming a better more well-rounded full stack developer.
+                Currently exploring machine learning and its applications in a variety of industries.
             </p>
 
 
+            <!--Languages
+                html
+                css
+                java
+                python
+                c++
+                javascript
+                sql (mb)
+            -->
+            <!--Frameworks
+                react.js
+            -->
+            <!--Tools
+                Github
+                JUnit (notyet)
+            -->
+
+            <!--Other
+                photoshop
+                excel
+            -->
+            <div class="skill_row">
+                <div class="skill_col2">
+                    <img src="img/html-5.png" alt="HTML" class="skillicon">
+                </div>
+                <div class="skill_col2">
+                    <img src="img/css.png" alt="CSS" class="skillicon">
+                </div>
+                <div class="skill_col2">
+                    <img src="img/JavaScript.png" alt="Javascript" class="skillicon">
+                </div>
+                <div class="skill_col2">
+                    <img src="img/C++.png" alt="C++" class="skillicon">
+                </div>
+                <div class="skill_col2">
+                    <img src="img/Java.png" alt="Java" class="skillicon">
+                </div>
+                <div class="skill_col2">
+                    <img src="img/python.png" alt="Python" class="skillicon">
+                </div>
+            </div>
+
+            <div class="skill_row">
+                <div class="skill_col2">
+                    <img src="img/github.svg" alt="Git" class="skillicon">
+                </div>
+                <div class="skill_col2">
+                    <img src="img/photoshop.png" alt="Photoshop" class="skillicon">
+                </div>
+                <div class="skill_col2">
+                    <img src="img/excel.png" alt="Excel" class="skillicon">
+                </div>
+            </div>
+            <!--
             <div class="skill_row">
                 <div class="skill_col">
                     <h1> <strong>Languages</strong> </h1>
@@ -97,8 +166,11 @@
                     <h1> <strong>Tools</strong> </h1>
                     <img src="img/CSS.svg" alt="CSS" class="skillicon">
                 </div>
-
             </div>
+            -->
+
+
+
 
             <p>
                 <strong>In and out of programming</strong>, I pride myself on my abilties of leadership ...
@@ -110,21 +182,73 @@
 
 
     <!-- Projects-->
-    <div class="projects">
+    <div class="projects" data-aos="fade-up">
 
         <h4>Featured Projects</h4>
+        <br  />
 
         <div class="project_row">
             <div class="project_col">
-                <img src="img/placeholder.png" />
+                <div class="container">
+                    <div class="main_box">
+                        <img class="project_img" src="img/placeholder2.png" />
+                        <h6>
+                            <strong>PROJECT NAME</strong> Starry Station feature that provided users with the ability to easily filter content,
+                            pause the internet, and even create custom rules for blocking apps like Facebook and Twitter
+                            right from their phones.
+                        </h6>
+                        <h7>Python</h7><h7>Note</h7>
+                    </div>
+
+                    <a style="display:block" href="https://github.com/brianlian38" target="_blank">
+                        <div class="box">
+                            <div class="text">Github »</div>
+                        </div>
+                    </a>
+                </div>
             </div>
+
             <div class="project_col">
-                <img src="img/placeholder.png" />
+                <div class="container">
+                    <div class="main_box">
+                        <img class="project_img" src="img/placeholder2.png" />
+                        <h6>
+                            <strong>PROJECT NAME</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Mauris at leo massa. Phasellus non sapien ac enim cursus gravida vitae quis justo. 
+                            Morbi erat elit, interdum vel ante at, mattis aliquet enim. Nam vel nunc massa.
+                        </h6>
+                        <h7>Java</h7><h7>HTML5</h7>
+                    </div>
+
+                    <a style="display:block" href="https://github.com/brianlian38" target="_blank">
+                        <div class="box">
+                            <div class="text">Github »</div>
+                        </div>
+                    </a>
+                </div>
             </div>
+
         </div>
 
-
     </div>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <!--RESUME DOWNLOAD-->
+    <div class="resume" data-aos="fade-up">
+        <button onclick="window.open('Brian_Lian.pdf')"><span>View My Resume</span></button>
+    </div>
+
+    <br /><br />
+
+
+
+                    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+                    <script>
+                        AOS.init({
+                            duration: 1500,
+                        })
+                    </script>
 
 </body>
 </html>

@@ -21,6 +21,14 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 <body>
+
+    <!-- Dark Mode/Light Mode Toggle-->
+    <label class="switch">
+        <input type="checkbox" >
+        <span class="slider round"></span>
+    </label>
+
+
     <!-- Introduction/Opening -->
     <div class="intro">
         <h1 class="intro_hello">
@@ -37,14 +45,14 @@
             <span>Get in touch </span>
             <span class="wave">👉</span>
             <span>
-                <a href="mailto:brian.lian38@gmail.com" target="_blank" class="link_highlight">brian.lian38@gmail.com</a>
+                <a href="mailto:brian.lian38@gmail.com" target="_blank" class="con_link">brian.lian38@gmail.com</a>
             </span>
         </h3>
 
         <!-- ADD HOVER ICONS SO WHEN YOU HOVER it goes to black/white IS REVEALED-->
         <div class="contact_icons">
 
-            <a href="https://www.linkedin.com/in/brian-lian/" target="_blank"><img src="img/github.svg" alt="GitHub" class="icon"></a>
+            <a href="https://github.com/brianlian38" target="_blank"><img src="img/github.svg" alt="GitHub" class="icon"></a>
             <a href="https://www.linkedin.com/in/brian-lian/" target="_blank"><img src="img/linkedin.svg" alt="LinkedIn" class="icon"></a>
             <a href="https://www.linkedin.com/in/brian-lian/" target="_blank"><img src="img/facebook.svg" alt="Facebook" class="icon"></a>
 
@@ -53,13 +61,12 @@
 
 
 
-    <br /><br />
 
     <!-- Bio -->
-    <div class="biography" data-aos="fade-up">
-
-        <img src="img/Headshot01.jpg" id="profilepic" alt="HeadshotImage" />
-        <div class="section_content">
+    <div class="biography" >
+        
+        <img src="img/Headshot01.jpg" id="profilepic" alt="HeadshotImage" data-aos="fade-up"/>
+        <div class="section_content" data-aos="fade-up">
             <div class="section_title">Who am I?</div>
             <br />
             <p>
@@ -72,8 +79,6 @@
                 one's workflow, or boost user engagement. I consistently aim to deliver products that are simplistic and engaging to the
                 user while remaining efficient under the hood.
             </p>
-            <!-- I have a passion for helping others which leads to my love of organizing events or creating applications
-        that benefit society.-->
             <p>
                 <strong>When I'm not in front of a computer screen</strong>, I'm probably reading, playing games,
                 or trying to cook (and not burn down my kitchen).
@@ -84,9 +89,9 @@
 
 
     <!-- Skills -->
-    <div class="skills" data-aos="fade-up">
+    <div class="skills">
 
-        <div class="section_content">
+        <div class="section_content" data-aos="fade-up">
             <div class="section_title">Skills</div>
             <br />
             <p>
@@ -111,7 +116,6 @@
                 Github
                 JUnit (notyet)
             -->
-
             <!--Other
                 photoshop
                 excel
@@ -173,10 +177,11 @@
 
 
             <p>
-                <strong>In and out of programming</strong>, I pride myself on my abilties of leadership ...
+                <strong>In and out of programming</strong>, I pride myself on my abilities of leadership and adaptability along with
+                my constant desire to learn.
             </p>
         </div>
-        <img src="img/rsz_laptop.png" id="skillpic" alt="CodeImage" />
+        <img src="img/rsz_laptop.png" id="skillpic" alt="CodeImage"  data-aos="fade-up"/>
     </div>
 
 
@@ -185,22 +190,22 @@
     <div class="projects" data-aos="fade-up">
 
         <h4>Featured Projects</h4>
-        <br  />
+        <br />
 
         <div class="project_row">
-            <div class="project_col">
+            <div class="project_col" data-aos="fade-up-right">
                 <div class="container">
                     <div class="main_box">
-                        <img class="project_img" src="img/placeholder2.png" />
+                        <img class="project_image" src="img/Tumor.png" />
                         <h6>
-                            <strong>PROJECT NAME</strong> Starry Station feature that provided users with the ability to easily filter content,
-                            pause the internet, and even create custom rules for blocking apps like Facebook and Twitter
-                            right from their phones.
+                            <strong>SKIN LESION ANALYZER</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Mauris at leo massa. Phasellus non sapien ac enim cursus gravida vitae quis justo.
+                            Morbi erat elit, interdum vel ante at, mattis aliquet enim.
                         </h6>
-                        <h7>Python</h7><h7>Note</h7>
+                        <h7>Python</h7><h7>Jupyter Notebook</h7><h7>Machine Learning</h7>
                     </div>
 
-                    <a style="display:block" href="https://github.com/brianlian38" target="_blank">
+                    <a style="display:block" href="https://github.com/brianlian38/skin-lesion-analyzer" target="_blank">
                         <div class="box">
                             <div class="text">Github »</div>
                         </div>
@@ -208,16 +213,16 @@
                 </div>
             </div>
 
-            <div class="project_col">
+            <div class="project_col" data-aos="fade-up-left">
                 <div class="container">
                     <div class="main_box">
                         <img class="project_img" src="img/placeholder2.png" />
                         <h6>
-                            <strong>PROJECT NAME</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Mauris at leo massa. Phasellus non sapien ac enim cursus gravida vitae quis justo. 
+                            <strong>PROJECT NAME</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Mauris at leo massa. Phasellus non sapien ac enim cursus gravida vitae quis justo.
                             Morbi erat elit, interdum vel ante at, mattis aliquet enim. Nam vel nunc massa.
                         </h6>
-                        <h7>Java</h7><h7>HTML5</h7>
+                        <h7>HTML5</h7><h7>CSS</h7><h7>Javascript</h7>
                     </div>
 
                     <a style="display:block" href="https://github.com/brianlian38" target="_blank">
@@ -231,6 +236,10 @@
         </div>
 
     </div>
+
+
+
+    <!--EXPERIENCES-->
 
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
@@ -243,12 +252,12 @@
 
 
 
-                    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-                    <script>
-                        AOS.init({
-                            duration: 1500,
-                        })
-                    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1500,
+        })
+    </script>
 
 </body>
 </html>

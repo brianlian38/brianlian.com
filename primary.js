@@ -6,7 +6,7 @@
 window.onload = function () {
     if (window.jQuery) {
         // jQuery is loaded  
-        alert("Yeah!");
+        alert("Currently no Mobile Support");
     } else {
         // jQuery is not loaded   
         alert("Doesn't Work");
@@ -29,9 +29,14 @@ function hide() {
 
 //Colour Mode Switch (aka darkMode)
 $(document).ready(function () {
-    $(".toggle").click(function () {
-        $("body").toggleClass("dark-mode");
-        $(".block").toggleClass("red-mode");
+    $(".slider").click(function () {
+        $(".intro").toggleClass("intro_alt");
+        $(".biography").toggleClass("bio_alt");
+        $(".skills").toggleClass("skills_alt");
+        $(".section_title").toggleClass("section_title_alt");
+        $(".projects").toggleClass("project_alt");
+        /*
+        $("body").toggleClass("body_alt");*/
     });
 });
 

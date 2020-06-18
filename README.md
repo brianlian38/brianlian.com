@@ -8,6 +8,7 @@ Still missing a few things:
 
 /*NOTES:
 Yet to be implemented::<br/>
+  -updated links<br/>
   -my projects<br/>
   -my experiences<br/>
   -nicer font<br/>

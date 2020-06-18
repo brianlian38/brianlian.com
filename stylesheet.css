@@ -502,34 +502,15 @@ button:hover:after {
   opacity: 1;
   right: 10px;
 }
-/*
-#resume_img {
-    outline: 3px solid black;
-    -moz-transition: all 0.25s ease-out;
-    -o-transition: all 0.25s ease-out;
-    -webkit-transition: all 0.25s ease-out;
-}
-#resume_img.rotate {
-    -moz-transform: rotate(15deg);
-    -ms-transform: rotate(15deg);
-    -o-transform: rotate(15deg);
-    -webkit-transform: rotate(15deg);
-}
-#download {
-    text-decoration: underline solid transparent;
-    transition: text-decoration 1s ease;
-    display: block;
-    border-radius: 1em;
-    padding: 1em;
-}
-#download:hover {
-    text-decoration: underline solid Currentcolor;
-}
-#download:visited{
-    color: #007bff;
-}*/
 
-
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #171c28;
+    color: white;
+    
+}
 
 
 

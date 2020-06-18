@@ -40,6 +40,12 @@ $(document).ready(function () {
     });
 });
 
+//Clear Click Me!
+$(document).ready(function () {
+    $('.slider').click(function () {
+        $(".alert_click").hide();
+    });
+});
 
 /*
 $("#download").hover(function () {

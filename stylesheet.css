@@ -79,6 +79,16 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
+.alert_click {
+    position: absolute;
+    right: 120px;
+    top: 35px;
+    display: inline-block;
+    font-family: Verdana;
+    line-height: 1;
+    background: white;
+    color: dimgray;
+}
 
 /*INTRODUCTION*/
 .intro {

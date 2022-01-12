@@ -1,6 +1,10 @@
 # brianlian38.github.io
 Personal Portfolio Website
 
+BROKEN, transfer to javascript in process, ignore broken page for now
+
+
+
 The very first iteration of my personal website, extremely basic and admittedly messy.
 Expect a new completetly revamped site coming atcha sometime soon :)
 

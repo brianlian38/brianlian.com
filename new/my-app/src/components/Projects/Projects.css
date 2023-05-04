@@ -1,0 +1,50 @@
+.parent {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+}
+
+.header {
+  font-family: 'Inter';
+  display: flex;
+}
+
+.subHeader {
+  font-family: 'Inter';
+  display: flex;
+}
+
+.projectTitles {
+  font-family: 'Inter';
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-top: 40px
+}
+
+.wearableImages {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.prototypeText {
+  text-align: center;
+}
+
+.applyWithApiVideoContainer {
+  position: relative;
+  padding-bottom: 62.5%;
+  height: 0;
+}
+
+.applyWithApiVideo {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
+}
+
+.applyWithApiImage {
+  max-width: 500px;
+  max-height: 400px;
+}

@@ -1,0 +1,15 @@
+.parent {
+  text-align: left;
+}
+
+.header {
+  font-family: 'Inter';
+  align-items: flex-start;
+}
+
+.bodyTitles {
+  font-family: 'Inter';
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 0px;
+}

@@ -2,7 +2,7 @@
   "name": "personal",
   "version": "0.1.0",
   "main": "index.js",
-  "homepage": "http://brianlian38.github.io/",
+  "homepage": "http://brianlian.com/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",

@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import {
   BrowserRouter as Router,
-  Routes, //switch no longer supported
+  Switch, //switch no longer supported in newer versions
   Route,
   Link
 } from "react-router-dom";
@@ -45,11 +45,17 @@ class App extends React.Component {
                 </nav>
               </Grid>
               <Grid item sm={9}>
-                <Routes>
-                  <Route path="projects/*" element={<Projects />} />
-                  <Route path="bookshelf/*" element={<Bookshelf />} />
-                  <Route path="/" element={<Home />} />
-                </Routes>
+                <Switch>
+                  <Route path="/projects">
+                    <Projects />
+                  </Route>
+                  <Route path="/bookshelf">
+                    <Bookshelf />
+                  </Route>
+                  <Route path="/">
+                    <Home />
+                  </Route>
+                </Switch>
               </Grid>
             </Grid>
           </div>

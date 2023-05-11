@@ -1,6 +1,8 @@
 {
-  "name": "my-app",
+  "name": "personal",
   "version": "0.1.0",
+  "main": "index.js",
+  "homepage": "http://brianlian.com/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",
@@ -20,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

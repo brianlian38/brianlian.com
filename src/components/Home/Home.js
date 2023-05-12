@@ -86,24 +86,23 @@ class Home extends React.Component {
               </p>
               <p>
                 Ever since I was young, I've been curious about how to best make the lives of those around me better! Driven by this passion, 
-                I have found that I love to tackle the problems others face head-on - specifically by building solutions. To this end, I’ve grown experiences in product, 
-                data science, full stack, and business. Dually user focused and data driven, I am always trying to grow and apply my toolkit - see for yourself!
+                I have found that I love to tackle the problems others face head-on by building solutions. To this end, I’ve grown experiences in product, 
+                full stack, data science, and business. Dually user focused and data driven, I'm always seeking to grow and apply my toolkit!
               
-                I also love to build up my community around me. I am a board director and former co-chair of&nbsp;
+                I also love to build up my community around me, which I do as a board director and former co-chair of&nbsp;
                 <a target="_blank" rel="noopener noreferrer" href="https://hackthe6ix.com//">Hack the 6ix</a>
                 &nbsp;, Toronto’s largest summer hackathon. 
-                I thoroughly enjoy contributing to the growth of Toronto's tech scene through challenging like-minded individuals. 
               </p>
               <p>
                 You should know that I am a <b>huge</b> stathead. So much so, that I have been tracking my own daily statistics - inspired by
-                <a target="_blank" rel="noopener noreferrer" href="http://feltron.com/FAR14.html"> Feltron's annual reports</a>. Quantifying my self, has pushed me to be more meaningful in my day to day activities and choices.
-                This journey has allowed me to enrich my experience of life through gleaned insights. Check out 
+                <a target="_blank" rel="noopener noreferrer" href="http://feltron.com/FAR14.html"> Feltron</a>. Quantifying my self, has pushed me to be more meaningful in my day to day choices.
+                The gleaned insights from my journey have 100% enriched my life experience. Check out 
                 <a target="_blank" rel="noopener noreferrer" href="https://dailyvis.com/posts/quantified-self-why-i-track-my-life-in-data/"> this blog </a>
                 as an excellent deep dive into the why and how.
               </p>
               <p>
-                Aside from my crazy self-stats journey, I've also applied my skills to try to win NBA fantasy league every season - focusing on advanced analytics. This interest 
-                has since expanded to the political sphere as well. Its why publications like
+                Aside from self-stats, I've applied my skills to try to win NBA fantasy league - focusing on advanced analytics. This interest 
+                has since expanded to the political sphere. Its why publications like
                 <a target="_blank" rel="noopener noreferrer" href="https://fivethirtyeight.com/"> FiveThirtyEight </a>
                 are my favourite: data-driven journalism.              
               </p>
@@ -143,7 +142,7 @@ class Home extends React.Component {
           <Divider />
           <div>&nbsp;</div>
           <div>
-            Made by Brian Lian
+            Made by Brian Lian - Minimalist & Clean
           </div>
           <div>
             Source code found here:&nbsp;

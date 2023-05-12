@@ -41,7 +41,7 @@ class Bookshelf extends React.Component {
         </h1>
         <p>
           I think my love for diving into data stems (somehow) from my love for diving into a new read. Theres something to be said about the learning of new knowledge that is so captivating.
-          I've always been excited to learn about new book recommendations from others. I'm currently interested in learning more about neuroscience and the psychology that drives us.
+          I am always excited to learn about new book recommendations from others. I'm currently interested in learning more about neuroscience and the psychology that drives us.
         </p>
         <p>
           I've only recently (2023) started tracking my reading list so pardon the emptiness. I hope to fill this page up with

@@ -101,12 +101,6 @@ class Home extends React.Component {
                 as an excellent deep dive into the why and how.
               </p>
               <p>
-                Aside from self-stats, I've applied my skills to try to win NBA fantasy league - focusing on advanced analytics. This interest 
-                has since expanded to the political sphere. Its why publications like
-                <a target="_blank" rel="noopener noreferrer" href="https://fivethirtyeight.com/"> FiveThirtyEight </a>
-                are my favourite: data-driven journalism.              
-              </p>
-              <p>
                 <b>|</b> <i>My humble claim to fame is making perfect boiled eggs and being on tv when I was 8 (ask me about it).</i>
               </p>
               <p>

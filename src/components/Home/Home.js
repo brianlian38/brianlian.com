@@ -21,29 +21,147 @@ const icon = {
 }
 
 const experiences = [
-  { emoji: "🤖", company: "Stealth Startup", role: "TPM", url: "https://en.wikipedia.org/wiki/Stealth_startup", time: "2023", 
-  description: "Building data product MVP + Strategized execution roadmap"},
-  { emoji: "🍊", company: "Tangerine", role: "SWE", url: "https://www.tangerine.ca/en/about-us", time: "2023", 
-  description: "Modernizing Open APIs + Updating microservices on cloud for scalability"},
+  { emoji: "💸", company: "Scotiabank", role: "Product Owner Intern", url: "https://www.scotiabank.com/ca/en/personal.html", time: "2023", 
+  description: "managing internal platform product"},
+  { emoji: "🤖", company: "Stealth Startup", role: "Product Management Intern", url: "https://en.wikipedia.org/wiki/Stealth_startup", time: "2023", 
+  description: "building data product MVP + strategized execution roadmap"},
+  { emoji: "🍊", company: "Tangerine", role: "SWE Intern", url: "https://www.tangerine.ca/en/about-us", time: "2023", 
+  description: "modernizing Open APIs + updating microservices on cloud for scalability"},
   { emoji: "💼", company: "Buf", role: "Business Operations Analyst", url: "https://buf.build/", time: "2022", 
-  description: "Kept the lights on (financials, SOC2, IT/HR systems) + Built forward-looking things for growth (analytics)"},
-  { emoji: "💵", company: "Scotiabank", role: "Data Scientist", url: "https://www.tesla.com", time: "2021", 
-  description: "Created data tooling to find money laundering incidents faster and more effectively"},
+  description: "kept the lights on (financials, SOC2, IT/HR systems) + built forward-looking things for growth (analytics)"},
+  { emoji: "💵", company: "Scotiabank", role: "Data Scientist Intern", url: "https://www.scotiabank.com/ca/en/personal.html", time: "2021", 
+  description: "created data tooling to find money laundering incidents faster and more effectively"},
 ]
 
 class Home extends React.Component {
+  
+  componentDidMount() {
+
+
+
+
+
+    
+    const width = 500;
+    const height = 500;
+    const count = 19;
+    const rowsize = 25;
+    let dotsize = 6;
+    const dotmin = 3;
+    const dotsizebase = 6;
+
+    const canvases = document.querySelectorAll(".CanvasDots");
+    canvases.forEach((canvas) => {
+      const ctx = canvas.getContext('2d');
+      ctx.canvas.width = width;
+      ctx.canvas.height = height;
+      this.mouseOver(canvas, ctx, false);
+      canvas.addEventListener('mousemove', (event) => this.mouseOver(canvas, ctx, event, true));
+      canvas.addEventListener('mouseleave', (event) => this.mouseOver(canvas, ctx, event, false));
+    });
+  }
+
+  mouseOver = (canvas, ctx, event, cursor) => {
+    let PosX, PosY;
+    if (cursor) {
+      PosX = this.getPositionX(event);
+      PosY = this.getPositionY(event);
+    } else {
+      PosX = -100;
+      PosY = -100;
+    }
+
+    const LocX = canvas.getBoundingClientRect().left;
+    const LocY = canvas.getBoundingClientRect().top;
+
+    const GlobalX = PosX - LocX;
+    const GlobalY = PosY - LocY;
+
+    ctx.canvas.width = 1010;
+    ctx.canvas.height = 500;
+
+    const count = 99;
+    const rowsize = 30;
+    let dotsize = 6;
+    const dotmin = 3;
+    const dotsizebase = 6;
+
+    let counter = 1;
+    for (let ix = 4; ix <= count - 3; ix++) {
+      for (let iy = 4; iy <= count - 3; iy++) {
+        ctx.beginPath();
+        const scaler = Math.hypot(GlobalX / rowsize - ix, GlobalY / rowsize - iy);
+        dotsize = dotsizebase - scaler * 0.5;
+        if (dotsize < dotmin) {
+          dotsize = dotmin;
+        }
+        ctx.arc(rowsize * ix, rowsize * iy, dotsize, 0, 2 * Math.PI);
+        counter = counter * 1;
+        const nr = String(counter).charAt(2);
+        ctx.strokeStyle = "#00be5a";
+        
+        /*
+        if (nr <= 3) {
+          ctx.strokeStyle = "#f05c2c";
+        } else if (nr <= 6) {
+          ctx.strokeStyle = "#1daeea";
+        } else {
+          ctx.strokeStyle = "#FFFFFF";
+        }
+        */
+
+        ctx.lineWidth = 1;
+        ctx.stroke();
+      }
+    }
+  };
+
+  getPositionX = (event) => {
+    const CursorX = event.clientX;
+    return CursorX;
+  };
+
+  getPositionY = (event) => {
+    const CursorY = event.clientY;
+    return CursorY;
+  };
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   render() {
     return (
       <div>
-        <div className="bodyContainer">
-          <div className="name">
-          <h1 class="intro_hello">
-            Hi! I'm Brian Lian
-            <span class="wave">👋</span>
-          </h1>
 
+        <div className="bodyContainer">
+
+        
+
+        <div className="name">
+          <canvas className="CanvasDots" ></canvas>
+          <br></br>
+          <h1 className="intro_hello">
             
-          </div>
+            
+            ---
+            <span className="wave">👋</span>
+          </h1>
+        </div>
+
+
+
+          <hr></hr>
+
           <Typewriter
             options={{
               strings: ['Toronto ⇄ London', 'Future goldendoodle owner', 'Coffee addict', 'NBA stathead'],

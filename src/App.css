@@ -4,6 +4,7 @@
   flex-direction: column;
   margin-left: 5px;
   margin-right: 5px;
+  
 }
 
 .navigationMenu {
@@ -22,12 +23,13 @@
 
 a:link {
   text-decoration: none;
-  color: blue;
+  color: #b96032
+
 }
 
 a:visited {
   text-decoration: none;
-  color: blue;
+  color: #b96032;
 }
 
 .home {

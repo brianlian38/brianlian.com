@@ -12,7 +12,9 @@ body {
   flex-direction: row;
   justify-content: center;
   margin-bottom: -20px;
+  align-items: center;
 }
+
 
 .svgAnimation {
   width: 100px;
@@ -50,6 +52,7 @@ body {
   to { opacity: 0; }
 }
 
+
 .profilePicture {
   border-radius: 50%;
   width: 180px;
@@ -86,6 +89,7 @@ span.wave {
   50% {transform: rotate( 0.0deg)}
   100% {transform: rotate( 0.0deg)}
 }
+
 
  div {
   animation: fadein 0.7s;

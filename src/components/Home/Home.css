@@ -11,9 +11,29 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: -20px;
+  margin-bottom: 0px;
+  margin-top: 10px;
   align-items: center;
+  overflow: hidden;
+  position:relative;
+  font-family: "manuka";
+  font-size: 400%;
+  font-weight: 700;
+  line-height: 200%;
+  letter-spacing: .05em;
+
 }
+
+.intro_hello {
+  position: absolute;
+  pointer-events: none;
+}
+
+.center_content {
+  align-items: center;
+  text-align: center;
+}
+
 
 
 .svgAnimation {
@@ -59,7 +79,13 @@ body {
 }
 
 .bodyTitle {
-  font-family: 'Inter';
+  font-family: 'financier';
+  font-size:xx-large;
+}
+
+.smallBodyTitle {
+  font-family: 'financier';
+  font-size:x-large;
 }
 
 .bodyText {
@@ -72,6 +98,39 @@ body {
   height: 100px;
   margin-top: auto;
 }
+
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  
+  flex-grow: 1;
+}
+
+.section {
+  flex: 1;
+  max-width: 100%;
+  margin: 15px;
+  padding: 5px;
+  border-radius: 8px;
+  font-size:small;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section {
+    max-width: 100%; /* Adjust max-width for stacked sections */
+  }
+}
+
+
+
+
 
 span.wave {
   animation-name: wave-animation;
@@ -91,11 +150,11 @@ span.wave {
 }
 
 
- div {
-  animation: fadein 0.7s;
-  -moz-animation: fadein 0.7s; /* Firefox */
-  -webkit-animation: fadein 0.7s; /* Safari and Chrome */
-  -o-animation: fadein 0.7s; /* Opera */
+ .bodyContainer {
+  animation: fadein 0.6s;
+  -moz-animation: fadein 0.6s; /* Firefox */
+  -webkit-animation: fadein 0.6s; /* Safari and Chrome */
+  -o-animation: fadein 0.6s; /* Opera */
 }
 @keyframes fadein {
   from {

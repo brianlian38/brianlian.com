@@ -22,6 +22,13 @@ class Projects extends React.Component {
           I am more than happy to discuss them further in a chat however, so reach out! I've touched on some really neat company sites, data pipelines, and analytic solutions.
         </p>
         <br/>
+        <p>
+                You should know that I am a <b>huge</b> stathead. So much so, that I have been tracking my own daily statistics - inspired by
+                <a target="_blank" rel="noopener noreferrer" href="http://feltron.com/FAR14.html"> Feltron</a>. Quantifying my self, has pushed me to be more meaningful in my day to day choices.
+                The gleaned insights from my journey have 100% enriched my life experience. Check out 
+                <a target="_blank" rel="noopener noreferrer" href="https://dailyvis.com/posts/quantified-self-why-i-track-my-life-in-data/"> this blog </a>
+                as an excellent deep dive into the why and how.
+              </p>
         <h2 className="subHeader">
           Previous projects:
         </h2>

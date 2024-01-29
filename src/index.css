@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 @font-face {
   font-family: trippysans;
-  src: url(TrippySans.woff);
+  src: url(./assets/TrippySans.woff);
 }
 @font-face {
   font-family: manuka;
-  src: url(Manuka_Med.otf);
+  src: url(./assets/Manuka_Med.otf);
 }
 @font-face {
   font-family: financier;
-  src: url(Financier_Reg.otf);
+  src: url(./assets/Financier_Reg.otf);
 }
 body {
   margin: 0;
